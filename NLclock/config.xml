@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://salvadorruedapau.com/AnalogClock" version="1.0.1" viewmodes="maximized">
+    <tizen:application id="UesIUGuksy.NLclock" package="UesIUGuksy" required_version="2.2.1"/>
+    <author href="http://salvadorruedapau.com" email="salvador.rueda@gmail.com">Salvador Rueda Pau</author>
+    <content src="index.html"/>
+    <description>AnalogClock is an educational app that allow kids learn how to read time in an analog clock.</description>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="aclock.png" height="117" width="117"/>
+    <license href="http://salvadorruedapu.com/AnalogClock/license.txt">Creative Commons BY-SA. Original idea from Aurora Rueda and a derivated work from Dudley Storey (http://codepen.io/dudleystorey/pen/HLBki)</license>
+    <name>aClock</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting hwkey-event="enable"/>
+</widget>
